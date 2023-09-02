@@ -10,7 +10,6 @@
 .img-container {
     width: 30%;
     max-width: 400px;
-    max-height: 100%;
     margin-bottom: 8%;
 }
 
@@ -20,4 +19,9 @@
     justify-content: center;
     align-content: space-between;
     object-fit: cover;
+    max-height: 50%;
+}
+
+.main-text {
+    
 }
