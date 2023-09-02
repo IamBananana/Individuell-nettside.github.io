@@ -1,0 +1,23 @@
+.main-kontor {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 3%;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.img-container {
+    width: 30%;
+    max-width: 400px;
+    max-height: 100%;
+    margin-bottom: 8%;
+}
+
+.kontor-produkter {
+    margin-top: 10%;
+    display: inline-flex;
+    justify-content: center;
+    align-content: space-between;
+    object-fit: cover;
+}
