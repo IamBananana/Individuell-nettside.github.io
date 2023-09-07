@@ -11,7 +11,7 @@ header {
     font-family: sans-serif, Arial, Helvetica;
 }
 body {
-    background: linear-gradient(320deg, #370372, #1c74617a, rgba(23, 3, 134, 0.87));
+    background: linear-gradient(320deg, #440191, #022c23, rgb(16, 4, 83));
     font-family: sans-serif, Arial, Helvetica;
 }
 .intro-space {
@@ -24,6 +24,7 @@ body {
     justify-content: space-between;
     max-width: 1800px;
     margin: 0 auto;
+    padding: 1rem;
   }
 .title-container {
     display: flex;
@@ -57,15 +58,25 @@ li a {
 li a:visited {
     color: white;
 }
+li a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
 
+h1 {
+    color: white;
+}
 h1 a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 50px;
     margin: 0;
 }
 h1 a:visited {
-    color: black;
+    color: white;
+}
+h1 a:hover {
+    color: aqua;
 }
 h2 {
     color: white;
@@ -80,10 +91,13 @@ p {
     color: white;
 }
 p a {
-    text-decoration: none;
+    text-decoration: underline;
 }
 p a:visited {
     color: rgb(255, 152, 169);
+}
+p a:hover {
+    color: rgb(138, 6, 28) ;
 }
 
 
@@ -160,4 +174,21 @@ a {
 }
 a :visited {
     text-decoration: none;
+}
+
+.main-content :hover p {
+    color: rgb(2, 189, 189);
+    text-decoration: underline;
+}
+.main-content-second :hover p {
+    color: rgb(2, 189, 189);
+    text-decoration: underline;
+}
+.main-content-third :hover p {
+    color: rgb(2, 189, 189);
+    text-decoration: underline;
+}
+.main-content-fourth :hover p {
+    color: rgb(2, 189, 189);
+    text-decoration: underline;
 }

@@ -15,20 +15,21 @@
     justify-content: center;
     padding-left: 10%;
     padding-right: 10%;
+    padding-top: 3%;
 }
 
 
 .text1 {
     height: 100%;
+    padding-right: 5%;
     display: inline-block;
 }
 .text2 {
     height: 100%;
-
+    padding-right: 5%;
     display: inline-block;
 }
 .text3 {
     height: 100%;
-
     display: inline-block;
 }
