@@ -13,7 +13,6 @@ header {
 body {
     background: linear-gradient(320deg, #370372, #1c74617a, rgba(23, 3, 134, 0.87));
     font-family: sans-serif, Arial, Helvetica;
-    height: 100%;
 }
 .intro-space {
     height: 50vh;
