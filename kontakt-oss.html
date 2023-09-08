@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Kontor | Bø Industribedrift</title>
+  <link rel="stylesheet" href="assets/css/global.css">
+  <link rel="stylesheet" href="assets/css/sticky-header.css">
+  <link rel="stylesheet" href="assets/css/kontor.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header id="myHeader">
+    <div class="site-logo">
+      <div class="title-container">
+        <h1><a href="index.html">Bø Industribedrift</a></h1>
+        <b>For bedrifter av bedrifter</b>
+      </div>
+      <div class="menu-container">
+        <ul>
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="kontor.html">Kontor</a></li>
+          <li><a href="teknisk.html">Teknisk</a></li>
+          <li><a href="leie.html">Dagsleie</a></li>
+          <li><a href="om-oss.html">Om oss</a></li>
+          <li><a href="kontakt-oss.html">Kontakt oss</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <script src="submit.js"></script>
+    <div class="kontakt-oss-tittel">
+        <h1>Kontakt oss</h1>
+    </div>
+    <div class="main-container">
+        <form class="navn">
+            <label for="fname">Fornavn:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Etternavn:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+        </form>
+        <form class="form">
+            <label for="mail">Email:</label><br>
+            <input type="text" id="input" name="mail">
+            <button id="button" onclick="handle_form_submission()">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
