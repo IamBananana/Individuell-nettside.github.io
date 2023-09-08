@@ -94,6 +94,7 @@ p {
 }
 p a {
     text-decoration: underline;
+    color: rgb(255, 152, 169)
 }
 p a:visited {
     color: rgb(255, 152, 169);
