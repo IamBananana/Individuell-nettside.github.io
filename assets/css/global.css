@@ -194,3 +194,6 @@ a :visited {
     color: rgb(2, 189, 189);
     text-decoration: underline;
 }
+img {
+    object-fit: cover;
+}
